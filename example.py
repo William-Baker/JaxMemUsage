@@ -15,4 +15,4 @@ with tqdm(total=100, unit='batch') as tepoch:
     tepoch.set_postfix({'MaxMem': JaxMemUsage.max_usage_str, 'Mem': JaxMemUsage.usage_str})
     tepoch.update(1)
     
-  #%%
+#%%
